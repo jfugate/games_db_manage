@@ -28,7 +28,8 @@ def get_my_args():
 				pass
 			elif results.select_from:
 				pass
-				#select_row.build_query(results)
+				#myquery = select_row.build_query(results)
+				#connection.run_query(myquery)
 			elif results.update_now:
 				pass
 			elif results.del_now:
